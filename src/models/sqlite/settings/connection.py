@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 
 class DBConnectionHanlder:
     def __init__(self) -> None:
-        self.__conection_string = "sqlite:///C:/Users/Rodrigo/Desktop/Rocketseat-Python/4 - Nivel 4 - Introdução ao Design de Código/Arquitetura de Software e Padrão MVC/storage.db"
+        self.__conection_string = "sqlite:///storage.db"
 
         self.__engine = None
         self.session = None
